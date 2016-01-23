@@ -10,6 +10,13 @@
 
     <dependencies>
 
+        <!-- handlebars -->
+        <dependency>
+            <groupId>com.github.jknack</groupId>
+            <artifactId>handlebars</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+
         <!-- zookeeper -->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
@@ -40,7 +47,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.12.2</version>
+            <version>1.16.6</version>
         </dependency>
 
         <!-- guava -->
@@ -50,12 +57,14 @@
             <version>18.0</version>
         </dependency>
 
+        <!-- poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-excelant</artifactId>
             <version>3.10-FINAL</version>
         </dependency>
 
+        <!-- codemonkey -->
         <dependency>
             <groupId>org.codemonkey.simplejavamail</groupId>
             <artifactId>simple-java-mail</artifactId>
